@@ -1,0 +1,9 @@
+n=int(input("enter the Altitude :"))
+if n==3000:
+    print("Safe Landing")
+elif n>3000 and n<=6000:
+    print("Please Try to Land")
+elif n>6000:
+    print("Go Around")
+else:
+    print("invalid input")
